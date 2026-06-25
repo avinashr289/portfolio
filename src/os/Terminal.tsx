@@ -26,7 +26,7 @@ function Banner() {
     <div className="flex flex-col gap-3">
       <div className="flex items-center gap-4">
         <img
-          src="/avatar.png"
+          src={`${import.meta.env.BASE_URL}avatar.png`}
           alt="Avinash R"
           className="h-20 w-20 shrink-0 rounded-full object-cover object-top"
           style={{ border: "2px solid #00e5ff", boxShadow: "0 0 14px #00e5ff55" }}

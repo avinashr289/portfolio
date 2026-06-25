@@ -342,7 +342,7 @@ export function MailApp() {
       {/* content — above the gradient layers */}
       <div className="relative z-10 flex flex-col items-center">
       <img
-        src="/avatar.png"
+        src={`${import.meta.env.BASE_URL}avatar.png`}
         alt="Avinash R"
         className="h-28 w-28 rounded-full object-cover object-top"
         style={{ border: "2px solid #ff2e88", boxShadow: "0 0 24px #ff2e8866" }}
@@ -416,14 +416,14 @@ export function ResumeApp() {
         <span className="text-amber">↧</span>
         <span>Avinash_Resume.pdf</span>
         <a
-          href="/Avinash_Resume.pdf"
+          href={`${import.meta.env.BASE_URL}Avinash_Resume.pdf`}
           download
           className="ml-auto rounded border border-amber/50 bg-amber/10 px-2.5 py-1 text-amber hover:bg-amber/20"
         >
           download
         </a>
         <a
-          href="/Avinash_Resume.pdf"
+          href={`${import.meta.env.BASE_URL}Avinash_Resume.pdf`}
           target="_blank"
           rel="noreferrer"
           className="rounded border border-white/15 px-2.5 py-1 text-slate-300 hover:bg-white/5"
@@ -432,7 +432,7 @@ export function ResumeApp() {
         </a>
       </div>
       <object
-        data="/Avinash_Resume.pdf#toolbar=0&navpanes=0"
+        data={`${import.meta.env.BASE_URL}Avinash_Resume.pdf#toolbar=0&navpanes=0`}
         type="application/pdf"
         className="min-h-0 flex-1"
         aria-label="Avinash R resume PDF"
@@ -441,7 +441,7 @@ export function ResumeApp() {
           <div>
             <p>Inline preview unavailable in this browser.</p>
             <a
-              href="/Avinash_Resume.pdf"
+              href={`${import.meta.env.BASE_URL}Avinash_Resume.pdf`}
               target="_blank"
               rel="noreferrer"
               className="mt-3 inline-block rounded border border-amber/50 bg-amber/10 px-3 py-1.5 text-amber"
