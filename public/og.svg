@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" shape-rendering="crispEdges">
+  <rect width="1200" height="630" fill="#4a8c3f"/>
+  <!-- ground checker -->
+  <g fill="#3f7a36">
+    <rect x="0" y="0" width="60" height="60"/>
+    <rect x="120" y="0" width="60" height="60"/>
+    <rect x="60" y="60" width="60" height="60"/>
+  </g>
+  <!-- path -->
+  <rect x="0" y="285" width="1200" height="60" fill="#caa872"/>
+  <!-- dialog box -->
+  <rect x="80" y="120" width="1040" height="390" fill="#101018"/>
+  <rect x="80" y="120" width="1040" height="390" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <rect x="68" y="108" width="1064" height="414" fill="none" stroke="#000000" stroke-width="6"/>
+  <text x="130" y="230" font-family="monospace" font-size="56" font-weight="700" fill="#ffd23f">AVINASH R</text>
+  <text x="130" y="300" font-family="monospace" font-size="30" fill="#ffffff">Backend &amp; Blockchain Engineer</text>
+  <text x="130" y="380" font-family="monospace" font-size="26" fill="#4cc9f0">&gt; PRESS START TO EXPLORE THE WORLD</text>
+  <text x="130" y="440" font-family="monospace" font-size="22" fill="#80ed99">experience  skills  projects  profile  off-duty</text>
+</svg>

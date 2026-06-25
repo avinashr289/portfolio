@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/hooks.ts","./src/main.tsx","./src/vite-env.d.ts","./src/components/fallback.tsx","./src/data/resume.ts","./src/os/desktop.tsx","./src/os/terminal.tsx","./src/os/window.tsx","./src/os/appmeta.ts","./src/os/apps.tsx","./src/os/audio.ts","./src/os/types.ts","./src/os/usewindows.ts"],"version":"5.9.3"}
