@@ -47,6 +47,18 @@ body {
   }
 }
 
+/* Boot screen: packet arrow draw-in (scaleX uses element's own transform-origin) */
+@keyframes drawPacket {
+  from { transform: scaleX(0); }
+  to   { transform: scaleX(1); }
+}
+
+/* Boot screen: CONNECTION SECURED banner fade+rise */
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
 @keyframes gradientSweep {
   0%   { background-position: 0% 0%; }
   50%  { background-position: 100% 100%; }

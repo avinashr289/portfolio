@@ -21,6 +21,7 @@ function C({ children }: { children: React.ReactNode }) {
   return <span className="rounded bg-white/10 px-1 text-neon">{children}</span>;
 }
 
+
 function Banner() {
   return (
     <div className="flex flex-col gap-3">
@@ -373,7 +374,7 @@ export default function Terminal({ onOpen }: { onOpen: (a: AppId) => void }) {
 
   return (
     <div
-      className="flex h-full flex-col bg-[#070a10] font-mono text-[15px] leading-relaxed"
+      className="relative flex h-full flex-col bg-[#070a10] font-mono text-[15px] leading-relaxed"
       onClick={() => inputRef.current?.focus()}
     >
       <div ref={bodyRef} className="min-h-0 flex-1 space-y-1 overflow-auto p-3">
@@ -425,6 +426,7 @@ export default function Terminal({ onOpen }: { onOpen: (a: AppId) => void }) {
           </div>
         </div>
       </div>
+
     </div>
   );
 }
